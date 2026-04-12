@@ -17,6 +17,7 @@ on:
     paths:
       - 'vote/**'
       - '.github/workflows/call-docker-build-vote.yaml'
+  workflow_dispatch:
 
 jobs:
   call-docker-build:
