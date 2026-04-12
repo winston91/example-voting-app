@@ -17,6 +17,7 @@ on:
     paths:
       - 'result/**'
       - '.github/workflows/call-docker-build-result.yaml'
+  workflow_dispatch:
 
 jobs:
   call-docker-build:
